@@ -1,5 +1,7 @@
 import { Header } from "../../../components/Header"
+import { Snacks } from "../../../components/Snacks"
 import { TitleCommerce } from "../../../components/TitleCommerce"
+
 
 export default function HomeView() {
 
@@ -9,15 +11,15 @@ export default function HomeView() {
             snack: 'burguer',
             name: 'mega',
             description: 'O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.',
-            price: 35.00,
+            price: "35,00",
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
             id: 2,
             snack: 'burguer',
             name: 'Extra bacon',
-            description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.',
-            price: 23.5,
+            description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.',
+            price: "23,50",
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
@@ -25,7 +27,7 @@ export default function HomeView() {
             snack: 'burguer',
             name: 'Extra bacon',
             description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.',
-            price: 23.5,
+            price: "25,00",
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
     ]
@@ -34,6 +36,7 @@ export default function HomeView() {
         <>
             <Header title="Home" />
             <TitleCommerce>Home</TitleCommerce>
+            <Snacks snacks={data}></Snacks>
         </>
     )
 }
