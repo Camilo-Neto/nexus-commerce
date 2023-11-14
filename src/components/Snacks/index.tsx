@@ -14,7 +14,7 @@ export function Snacks({ snacks }: SnacksProps) {
                     <p>{snack.description}</p>
                     <div>
                         <strong>{snack.price}</strong>
-                        <button type="button"></button>
+                        <button type="button">+</button>
                     </div>
                 </div>
             

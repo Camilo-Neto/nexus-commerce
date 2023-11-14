@@ -12,12 +12,12 @@ export const Container = styled.div`
 
     .snack{
         position: relative;
-        background: ${({theme}) => theme.colors.black};
-        padding: 1.75rem;
+        background: ${({ theme }) => theme.colors.black};
+        padding: 1.75rem 1.5re.;
         border-radius: 4px;
     }
 
-    h2{
+    h2 {
         margin-bottom: 0.75rem;
         font-weight: 700;
         font-size: 1.5rem;
@@ -30,6 +30,36 @@ export const Container = styled.div`
         height: 11.25rem;
         border-radius: 4px;
         margin-bottom: 0.375rem;
+    }
+
+    p{
+        font-size: 0.875rem;
+    }
+
+    div{
+        margin-top: 0.875rem;
+        
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+
+        strong{
+            font-size: 2rem;
+            font-weight: 500;
+
+        }
+
+        button{
+            background: ${({theme})=> theme.colors.orange};
+            width: 3rem;
+            height: 3rem;
+            border: none;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;    
+        }
     }
 
 `
