@@ -1,3 +1,4 @@
+import { darken } from "polished";
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
@@ -13,9 +14,9 @@ export const Container = styled.div`
     .snack{
         position: relative;
         background: ${({ theme }) => theme.colors.black};
-        padding: 1.75rem 1.5re.;
+        padding: 1.75rem 1.5rem;
         border-radius: 4px;
-    }
+    
 
     h2 {
         margin-bottom: 0.75rem;
@@ -24,7 +25,7 @@ export const Container = styled.div`
         text-align: center;
     }
 
-    img{
+    img {
         object-fit: cover;
         width: 100%;
         height: 11.25rem;
@@ -39,8 +40,8 @@ export const Container = styled.div`
     div{
         margin-top: 0.875rem;
         
-        display: grid;
-        align-items: center;
+        display: flex;
+        align-items: center;    
         justify-content: space-between;
 
         strong{
@@ -58,7 +59,17 @@ export const Container = styled.div`
 
             display: flex;
             align-items: center;
-            justify-content: center;    
+            justify-content: center; 
+            
+            svg{
+                stroke: ${({theme}) => theme.colors.white};
+                height: 1.5rem;
+                width: 1.5rem;  
+            }
+
+            &:hover{
+                background: ${darken(.1,'#ED6B48')}  
+            }
         }
     }
 

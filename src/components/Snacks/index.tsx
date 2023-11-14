@@ -1,4 +1,7 @@
+import { FiPlus } from 'react-icons/fi'
+
 import { Container } from "./styles"
+
 
 interface SnacksProps {
     snacks: any[]
@@ -14,10 +17,11 @@ export function Snacks({ snacks }: SnacksProps) {
                     <p>{snack.description}</p>
                     <div>
                         <strong>{snack.price}</strong>
-                        <button type="button">+</button>
+                        <button type="button">
+                            <FiPlus />
+                        </button>
                     </div>
                 </div>
-            
             ))}
         </Container>
     )
