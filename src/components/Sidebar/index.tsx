@@ -9,6 +9,7 @@ import houseIcon from "../../assets/house.svg"
 import addIcon from "../../assets/add.svg"
 import profileIcon from "../../assets/profile.svg"
 
+
 export function Sidebar (){
 
     const [menuOpen, setMenuOpen] = useState(false)
@@ -27,6 +28,12 @@ export function Sidebar (){
                     <NavLink to='/'>
                         <img src={houseIcon}/>
                         <span>Home</span> 
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to='burguers'>
+                        <img src={houseIcon}/>
+                        <span>Burguers</span> 
                     </NavLink>
                 </li>
                 <li>
