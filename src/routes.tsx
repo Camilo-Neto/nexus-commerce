@@ -4,6 +4,7 @@ import Homepage from './pages/Main/HomeView'
 import DrinksPage from './pages/Main/Drinks'
 import AddProducts from './pages/Main/AddProducts'
 import Burguers from './pages/Main/Burguer'
+import Delivery from './pages/Main/Delivery'
 import MainPage from './pages/Main'
 
 export function AppRoutes() {
@@ -15,6 +16,7 @@ export function AppRoutes() {
         <Route path='profile' element={<ProfilePage />}/>
         <Route path='drinks' element={<DrinksPage />}/>
         <Route path='addproducts' element={<AddProducts />}/>
+        <Route path='delivery' element={<Delivery />}/>
       </Route>
 
     </Routes>
