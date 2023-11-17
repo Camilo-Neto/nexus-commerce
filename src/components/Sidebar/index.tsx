@@ -8,6 +8,7 @@ import drinksIcon from "../../assets/drinks.svg"
 import houseIcon from "../../assets/house.svg"
 import addIcon from "../../assets/add.svg"
 import profileIcon from "../../assets/profile.svg"
+import deliveryIcon from "../../assets/delivery.svg"    
 
 
 export function Sidebar (){
@@ -52,6 +53,12 @@ export function Sidebar (){
                     <NavLink to='profile'>
                         <img src={profileIcon}/>
                         <span>Profile</span> 
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to='delivery'>
+                        <img src={deliveryIcon}/>
+                        <span>Delivery</span> 
                     </NavLink>
                 </li>
             </ul>
