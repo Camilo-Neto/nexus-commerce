@@ -4,8 +4,8 @@ interface HeaderProps{
 }
 
 export function Header({title, description = ''}: HeaderProps) {
-    document.title = `Save-Today | ${title}`
+    document.title = `Nexus-Commerce | ${title}`
     document.querySelector('[name=description]')?.setAttribute('content', description)
 
-    return null 
+    return null
 }

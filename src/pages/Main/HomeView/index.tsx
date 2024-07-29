@@ -9,9 +9,9 @@ export default function HomeView() {
         {
             id: 1,
             snack: 'burguer',
-            name: 'mega',
+            name: 'Mega Nexus',
             description: 'O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.',
-            price: "35,00",
+            price: 35,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
@@ -19,15 +19,23 @@ export default function HomeView() {
             snack: 'burguer',
             name: 'Extra bacon',
             description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.',
-            price: "23,50",
+            price: 23.5,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
             id: 3,
             snack: 'burguer',
-            name: 'Extra bacon',
+            name: 'Extra Nexus bacon',
             description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.',
-            price: "25,00",
+            price: 25,
+            image: 'https://i.imgur.com/upjIUnG.jpg'
+        },
+        {
+            id: 4,
+            snack: 'burguer',
+            name: 'Tradicional Nexus Burguer',
+            description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.',
+            price: 20,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
     ]

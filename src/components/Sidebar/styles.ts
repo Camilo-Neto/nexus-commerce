@@ -1,24 +1,40 @@
 import styled, { css } from "styled-components";
 interface ContainerProps {
-    isMenuOpen: boolean
+  isMenuOpen: boolean
 }
 
 export const Container = styled.aside<ContainerProps>`
-    background-color: ${({ theme }) => theme.colors.orange};
+    background-color: ${({ theme }) => theme.colors.purple};
 
-    ${({ isMenuOpen }) => {
-        return isMenuOpen ? css`width: 16.3rem;` : css`width: 7.75rem;`
-    }};
+    ${({ isMenuOpen }) =>
+     isMenuOpen ? css`width: 16.3rem;` : css`width: 7.75rem;`
+  };
 
-    width: 7.75rem;
-    width: 16.3rem;
-    padding: 1rem 0;
+
+    padding: 2rem 0;
     overflow: hidden;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: width 0.3s;   
+
+
+    transition: width 0.3s;
+
+    @media (masx-width: 720px){
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+
+    width: 100%;
+    height: 5rem;
+    overflow-y: auto;
+    paddiing: 0 0;
+
+    }
+
 
     button{
         background: none;

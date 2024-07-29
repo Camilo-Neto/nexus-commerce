@@ -8,25 +8,41 @@ export default function Drinks(){
         {
             id: 1,
             snack: 'drink',
-            name: 'Guarana Antactica',
+            name: 'Guaraná Antactica',
             description: 'O irressistível e saboroso guaraná pronto para matar a sua sede.',
-            price: "8,00",
+            price: 6,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
             id: 2,
             snack: 'drink',
-            name: 'coca-cola',
+            name: 'Coca-Cola',
             description: 'A tradicional Coca-Cola que a família brasileira ama.',
-            price: "10,00",
+            price: 8,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
         {
             id: 3,
             snack: 'drink',
-            name: 'suco de laranja',
+            name: 'Suco de laranja',
             description: 'Suco natural de laranja para fortificar a sua saúde.',
-            price: "11,00",
+            price: 15,
+            image: 'https://i.imgur.com/upjIUnG.jpg'
+        },
+        {
+            id: 4,
+            snack: 'drink',
+            name: 'Água mineral',
+            description: 'Suco natural de laranja para fortificar a sua saúde.',
+            price: 5,
+            image: 'https://i.imgur.com/upjIUnG.jpg'
+        },
+        {
+            id: 4,
+            snack: 'drink',
+            name: 'Pepsi',
+            description: 'Suco natural de laranja para fortificar a sua saúde.',
+            price: 8,
             image: 'https://i.imgur.com/upjIUnG.jpg'
         },
     ]

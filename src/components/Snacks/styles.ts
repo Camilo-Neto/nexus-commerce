@@ -1,5 +1,5 @@
-import { darken } from "polished";
-import styled, { css } from "styled-components";
+import { darken } from 'polished';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
 
@@ -16,7 +16,7 @@ export const Container = styled.div`
         background: ${({ theme }) => theme.colors.black};
         padding: 1.75rem 1.5rem;
         border-radius: 4px;
-    
+
 
     h2 {
         margin-bottom: 0.75rem;
@@ -39,9 +39,9 @@ export const Container = styled.div`
 
     div{
         margin-top: 0.875rem;
-        
+
         display: flex;
-        align-items: center;    
+        align-items: center;
         justify-content: space-between;
 
         strong{
@@ -51,7 +51,7 @@ export const Container = styled.div`
         }
 
         button{
-            background: ${({theme})=> theme.colors.orange};
+            background: ${({theme})=> theme.colors.green};
             width: 3rem;
             height: 3rem;
             border: none;
@@ -59,16 +59,16 @@ export const Container = styled.div`
 
             display: flex;
             align-items: center;
-            justify-content: center; 
-            
+            justify-content: center;
+
             svg{
                 stroke: ${({theme}) => theme.colors.white};
-                height: 1.5rem;
-                width: 1.5rem;  
+                height: 2rem;
+                width: 2rem;
             }
 
             &:hover{
-                background: ${darken(.1,'#ED6B48')}  
+                background: ${darken(.1,'#ED6B48')}
             }
         }
     }
