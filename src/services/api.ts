@@ -5,4 +5,9 @@ const api = axios.create({
 
 })
 
+
+export const getBurguers = () => api.get('/burguers')
+export const getDrinks = () => api.get('/Drinks')
+
+
 export default api

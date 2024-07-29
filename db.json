@@ -1,0 +1,35 @@
+{
+  "burguers": [
+    {
+      "id": 1,
+      "name": "Mega Nexus",
+      "price": 35,
+      "description": "O artesanal tamanho família recheado com três carnes suculentas, queijo e bacon.",
+      "image": "https: //i.imgur.com/upjIUnG.jpg"
+    },
+    {
+      "id": 2,
+      "snack": "burguer",
+      "name": "Extra bacon",
+      "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.",
+      "price": 23.5,
+      "image": "https: //i.imgur.com/upjIUnG.jpg"
+    },
+    {
+      "id": 3,
+      "snack": "burguer",
+      "name": "Extra Nexus bacon",
+      "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.",
+      "price": 25,
+      "image": "https: //i.imgur.com/upjIUnG.jpg"
+    },
+    {
+      "id": 4,
+      "snack": "burguer",
+      "name": "'Tradicional Nexus Burguer",
+      "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda quiejo e carne.",
+      "price": 20,
+      "image": "https: //i.imgur.com/upjIUnG.jpg"
+    }
+  ]
+}
